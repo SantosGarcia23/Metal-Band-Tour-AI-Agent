@@ -1,1 +1,11 @@
-
+{
+  "mcpServers": {
+    "MongoDB": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server@latest", "--readOnly"],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb+srv://garcisan_ai:Mongodbaiagent@23>@touragent.zgeckr6.mongodb.net/?appName=TourAgent"
+      }
+    }
+  }
+}
